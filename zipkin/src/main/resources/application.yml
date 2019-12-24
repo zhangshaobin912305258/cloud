@@ -1,0 +1,7 @@
+spring:
+  zipkin:
+    base-url: http://139.159.227.224:9411/
+  sleuth:
+    sampler:
+      #样本采集量 默认0.1
+      probability: 1
